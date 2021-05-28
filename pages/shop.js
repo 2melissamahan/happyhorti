@@ -10,8 +10,8 @@ export default function Shop() {
   return (
     <Layout>
       <div>
-        {flags?.pageContent && <ComingSoon />}
-        {flags?.comingSoon && <p>Hello World</p>}
+        {flags?.comingSoon && <ComingSoon />}
+        {flags?.pageContent && <p>Hello World</p>}
       </div>
     </Layout>
   );
