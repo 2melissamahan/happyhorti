@@ -5,7 +5,7 @@ import { StylesProvider } from "@material-ui/core/styles";
 import { configure } from "@happykit/flags/config";
 
 configure({
-  envKey: [process.env.NEXT_PUBLIC_FLAGS_ENVIRONMENT_KEY, process.env.NEXT_PUBLIC_FLAGS_PRODUCTION_KEY],
+  envKey: process.env.NEXT_PUBLIC_FLAGS_ENVIRONMENT_KEY,
 });
 
 function MyApp({ Component, pageProps }) {
