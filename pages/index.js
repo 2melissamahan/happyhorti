@@ -7,12 +7,6 @@ export default function Home() {
     <Layout>
       <div className={styles.container}>
         <Head>
-          <title>Happy Horti</title>
-          <meta
-            name="description"
-            content="A blog about houseplants and horticulture."
-          />
-          <link rel="icon" href="/favicon.ico" />
         </Head>
 
         <main className={styles.main}>
