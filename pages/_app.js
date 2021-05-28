@@ -12,14 +12,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <StylesProvider injectFirst>
       <Component {...pageProps}>
-        <head>
+        <Head>
           <title>Happy Horti</title>
           <meta
             name="description"
             content="A blog about houseplants and horticulture."
           />
           <link rel="icon" href="/favicon.ico" />
-        </head>
+        </Head>
       </Component>
     </StylesProvider>
   );

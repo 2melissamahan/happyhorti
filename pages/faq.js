@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
-import styles from './about.module.scss'
+import styles from './faq.module.scss'
 
 export default function Faq() {
     return (

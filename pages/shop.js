@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/Layout/Layout";
-import styles from "./about.module.scss";
+import styles from "./shop.module.scss";
 import { useFlags } from "@happykit/flags/client";
 import ComingSoon from "../components/ComingSoon/ComingSoon";
 

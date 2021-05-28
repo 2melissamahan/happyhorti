@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
-import styles from './about.module.scss'
+import styles from './guides.module.scss'
 
 export default function Guides() {
     return (
