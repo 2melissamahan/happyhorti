@@ -16,9 +16,9 @@ export default function Layout({ children }) {
             <a href='/' className={styles.center}>Happy Horti</a>
             <div className={styles.navigation}>
                 <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="/about">About</Link></Button>
-                <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="/travel">Guides</Link></Button>
-                <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="/registry">Blog</Link></Button>
-                <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="/faq">Shop</Link></Button>
+                <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="/guides">Guides</Link></Button>
+                <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="/blog">Blog</Link></Button>
+                <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="/shop">Shop</Link></Button>
                 <Button className={`${styles.navItem} ${styles.desktop}`}><Link href="/faq">FAQ</Link></Button>
                 <div className={styles.mobile}>
                     <NavDrawer/>
