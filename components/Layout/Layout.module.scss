@@ -70,10 +70,13 @@
     flex-direction: column;
     flex-grow: 1;
     color: white;
-    font-family: "Cervanttis";
+    font-family: "Nexa";
+    letter-spacing: 10px;
+    Font-Weight: 600;
     font-size: 50px;
     position: sticky;
     z-index: 999;
+    padding: 20px;
 
     .headline {
       width: 55vw;
